@@ -1,0 +1,57 @@
+body {
+    background-color: #1e1751;
+    color:#ffefda;
+}
+
+#carina {
+    background-image: url(carina.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#milkyway {
+    background-image: url(milkyway.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    height: 100vh;
+}
+
+#crab {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    float: right;
+
+}
+
+.home {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+header {
+    width: 100%;
+    height: 12.5vh;
+    display: flex;
+}
+
+button {
+    width: 22.5vw;
+    background-color:#1e1751;
+    color: #ffefda;
+    font-size: 0.875rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+}
